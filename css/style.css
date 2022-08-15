@@ -9,17 +9,25 @@
 @import url("components/user-component.css");
 @import url("components/badge.css");
 @import url("components/icon-row.css");
+@import url("components/alt-screen-header.css");
+@import url("components/no-mobile.css");
 
 /* Screens */
 @import url("screens/login.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/setting.css");
+@import url("screens/chat.css");
 
 
 body {
     font-family: 'Open Sans', sans-serif;
     color: #2e363e;
+}
+
+i {
+    cursor: pointer;
 }
 
 .main-screen {

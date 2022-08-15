@@ -119,12 +119,28 @@
     cursor: pointer;
 }
 
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color:#ff3bad;
+        transform: scale(1.5);
+    }
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
 .open-post__heart-count:hover {
     background-color: #fa9fd4;
 }
 
-.open-post__heart-count:active i {
-    color: #ff3bad;
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
 }
 
 .open-post__heart-count span {

@@ -33,3 +33,28 @@
 .user-component__column:last-child {
     color: var(--grey);
 }
+
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;   
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+    
+}
+
+#splash-screen {
+    background-color: var(--skyblue);
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 0.822);
+    animation: hideSplashScreen 1s ease-in-out forwards;
+}

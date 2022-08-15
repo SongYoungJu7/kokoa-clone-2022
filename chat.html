@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat - Kokoa Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>21:30</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fa-solid fa-battery-full"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+        <a href="more.html"><i class="fa-solid fa-angle-left fa-3x"></i></a>
+    </div>
+    <div class="alt-header__column">
+        <h1 class="alt-header__title purin">Pompompurin</h1>
+    </div>
+    <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+        <i class="fa-solid fa-bars fa-2x"></i>
+    </div>
+  </header>
+
+  <main class="main-screen main-chat">
+    <div class="chat__timestamp">
+        Tuesday, August 16, 2022
+    </div>
+    <div class="message-row">
+        <img src="img/profile2.jpg">
+        <div class="message-row__content">
+            <span class="message__author">Pompompurin</span>
+            <div class="message__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">21:22</span>
+            </div>
+        </div>
+    </div>
+    <div class="message-row message-row--own">
+        <div class="message-row__content">
+            <div class="message__info">
+                <span class="message__time">21:30</span>
+                <span class="message__bubble">Hello!</span>
+            </div>
+        </div>
+    </div>
+    <div class="message-row message-row--own">
+        <div class="message-row__content">
+            <div class="message__info">
+                <span class="message__time">21:30</span>
+                <span class="message__bubble">How do you feeling?</span>
+            </div>
+        </div>
+    </div>
+    <div class="message-row">
+        <img src="img/profile2.jpg">
+        <div class="message-row__content">
+            <span class="message__author">Pompompurin</span>
+            <div class="message__info">
+                <span class="message__bubble">Soooo good＞.＜!</span>
+                <span class="message__time">21:30</span>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+        <i class="ri-add-box-line ri-2x"></i>
+    </div>
+    <div class="reply__column">
+        <i class="ri-emotion-happy-line ri-2x"></i>
+        <button>
+            <i class="fa-solid fa-arrow-up"></i>
+        </button>
+        <input type="text" placeholder="Write a message...">
+        
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
+  <script src="https://kit.fontawesome.com/d07af470f5.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -15,27 +15,49 @@
       <i class="fa-solid fa-wifi"></i>
     </div>
     <div class="status-bar__column">
-      <span>18:43</span>
+      <span>21:30</span>
     </div>
     <div class="status-bar__column">
-      <span>11%</span>
+      <span>100%</span>
       <i class="fa-solid fa-battery-full"></i>
       <i class="fa-solid fa-bolt"></i>
     </div>
   </div>
 
-  <header class="screen-header">
-    <h1 class="screen-header__title">Settings</h1>
-    <div class="screen-header__icons">
-      <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-      <span><i class="fa-solid fa-music fa-lg"></i></span>
-      <span><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a></span>
-      <div class="dot-more"></div>
+  <header class="alt-header">
+    <div class="alt-header__column">
+        <a href="more.html"><i class="fa-solid fa-angle-left fa-3x"></i></a>
+    </div>
+    <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+    </div>
+    <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
     </div>
   </header>
 
   <main class="main-screen more-screen">
-
+    <ul class="settings-list">
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span>Notices</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-flask"></i>
+                <span>Kokoa Lab</span>
+            </div>
+        </li>
+        <li class="settings__setting">
+            <div class="settings__setting-column">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>Version</span>
+            </div>
+            <div class="settings__setting-column setting-version">Latest Version</div>
+        </li>
+    </ul>
   </main>
 
   <nav class="nav">
@@ -54,6 +76,9 @@
     </ul>
   </nav>
 
+  <div id="no-mobile">
+    <span>Your screen is too big</span>
+  </div>
 
   <script src="https://kit.fontawesome.com/d07af470f5.js" crossorigin="anonymous"></script>
 </body>
