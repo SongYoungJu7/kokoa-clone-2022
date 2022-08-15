@@ -8,4 +8,15 @@
     height: 25px;
     color: white;
     font-weight: 600;
+    z-index: 1;
+}
+
+.dot {
+    position: absolute;
+    left: 95px;
+    bottom: 17px;
+    background-color: tomato;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
 }
