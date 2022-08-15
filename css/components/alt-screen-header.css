@@ -4,7 +4,7 @@
     align-items: center;
     margin-top: 25px;
     margin-bottom: 15px;
-    padding: var(--horizontal-space);
+
 }
 
 .alt-header__title {
@@ -19,7 +19,8 @@
 
 .alt-header__column {
     width: 33%;
-    background-color: var(--chat-background);
+    padding: 0 20px;
+    margin-top: 10px;
 }
 
 .alt-header__column:first-child {
