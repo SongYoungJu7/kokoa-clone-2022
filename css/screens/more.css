@@ -1,0 +1,61 @@
+.user-component_subtitle i {
+    margin-left: 8px;
+    color: tomato;
+    font-size: 14px;
+}
+
+.more-screen .icon-row {
+    margin: 35px 15px;
+}
+
+.more-suggestion__title {
+    font-size: 15px;
+    font-weight: 600;
+    border-top: var(--main-border);
+    padding-top: 30px;
+}
+
+.more-suggestion-icon {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.more-suggestion__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.more-suggestion__icons i {
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.more-suggestion__icons span {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.more-icon-row div {
+    margin-left: 4px;
+    margin-right: 5px;
+}
+
+.more-icon-row div:nth-child(3) {
+    visibility: hidden;
+}
+
+.more-icon-row div:nth-child(4) {
+    visibility: hidden;
+}
+
